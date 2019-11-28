@@ -26,5 +26,9 @@ $ bash install.sh
 
 __UN COP REALITZADES LES ANTERIORS ORDRES FUNCIONARA CORRECTAMENT EL DOCKER__
 
+__ORDRES QUE HE FET PER CONSEGUIR PAMPYTHON.SO EN LOCAL__
 
-
+make
+make install
+make build
+python setup.py build
