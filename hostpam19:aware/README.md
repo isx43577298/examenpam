@@ -1,5 +1,7 @@
 # EXAMEN HOSTPAM19  
-## @isx4377298  
+## @isx43577298  
+
+docker hub: https://hub.docker.com/repository/docker/isx43577298/hostpam19
 
 
 + Imatge docker anomenada isx43577298/hostpam19:aware al dockerhub  
@@ -11,16 +13,19 @@
 
 ### Ordres per posar en funcionament el docker
 
-docker run --rm -h pam --name pam -it isx43577298/hostpam19:aware /bin/bash  
-
-bash install.sh  
-
-tar xvzf pam-python-1.0.6.tar.gz  
-dnf -y install sphinx python3-sphinx phyton2-sphinx gcc  
-dnf -y install pam-devel  
-dnf -y install redhat-rpm-config  
-dnf -y install python-devel  
+$ docker run --rm -h pam --name pam -it isx43577298/hostpam19:aware /bin/bash  
+$ tar xvzf pam-python-1.0.6.tar.gz  
+$ dnf -y install sphinx python3-sphinx gcc  
+$ dnf -y install pam-devel  
+$ dnf -y install redhat-rpm-config  
+$ dnf -y install python-devel  
 
 editar línia 201 de: /usr/include/features.h:  
 canviar 700 per 600 en la línia # define _XOPEN_SOURCE 700
+
+$ bash install.sh
+
+__UN COP REALITZADES LES ANTERIORS ORDRES FUNCIONARA CORRECTAMENT EL DOCKER__
+
+
 
