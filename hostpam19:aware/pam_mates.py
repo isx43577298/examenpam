@@ -1,6 +1,6 @@
 # -*-coding: utf-8-*-
 # pam_mates.py
-# Validar l'usuari realitzant una pregunta de matematiques
+# Validar l'usuari realitzant una pregunta de matematiques facil
 
 def pam_sm_authenticate (pamh, flags, argv):
   print "Quant fan 2*5?"
