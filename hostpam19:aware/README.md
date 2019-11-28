@@ -14,7 +14,6 @@ docker hub: https://hub.docker.com/repository/docker/isx43577298/hostpam19
 ### Ordres per posar en funcionament el docker
 
 $ docker run --rm -h pam --name pam -it isx43577298/hostpam19:aware /bin/bash  
-$ tar xvzf pam-python-1.0.6.tar.gz  
 $ dnf -y install sphinx python3-sphinx gcc  
 $ dnf -y install pam-devel  
 $ dnf -y install redhat-rpm-config  
